@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <script src="../scripts/components/header.js" type="text/javascript" defer></script>
+  <script src="../scripts/components/footer.js" type="text/javascript" defer></script>
+  <title>KEA Restaurant - Contact</title>
+</head>
+<body>
+  <header-component></header-component>
+  <main>
+    <section>
+      <address>
+          <p>Guldbergsgade 29N 2200 Copenhagen</p>
+          <p>Phone no: <a href="tel:20 82 53 70">20 82 53 70</a></p>
+          <p>Email: <a href="mailto:info@restaurantkea.dk">info@restaurantkea.dk</a></p>
+      </address>
+    </section>
+    <section>
+      <img src="../restaurant_assets/img/map.jpg" alt="map over KEA Campus" width="100%"/>
+    </section>
+    <section>
+      <form>
+        <fieldset>
+          <legend>Contact form</legend>
+          <div>
+            <label for="Full name">Full name</label>
+            <input type="text" id="fname" name="fname">
+          </div>
+          <div>
+            <label for="Phone">Phone no.</label>
+            <input type="text" id="phone" name="phone">
+          </div>
+          <div>
+            <label for="E-mail">E-mail</label>
+            <input type="text" id="email" name="email">
+          </div>
+          <div>
+            <label for="persons">Persons</label>
+            <input 
+              type="number" 
+              min="1"
+              max="12"
+              id="persons" 
+              name="persons" 
+              >
+          </div>
+          <div>
+            <label for="dateTime">Date and time</label>
+            <input type="datetime-local" id="dateTime" name="dateTime">
+          </div>
+          <div>
+            <label for="moreInfo">Futher information</label>
+            <br>
+            <textarea id="moreInfo" name="moreInfo"></textarea>
+          </div>
+          <input type="submit" value="Send">
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <footer-component></footer-component>
+</body>
+</html>
