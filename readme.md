@@ -10,4 +10,5 @@
 ![menu](readme_assets/menu.png)
 
 #### Contact page
-![contact](readme_assets/contact.png)# KEA-Restaurant
+![contact](readme_assets/contact.png)
+
