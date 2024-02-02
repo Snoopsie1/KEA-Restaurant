@@ -11,13 +11,13 @@ class Header extends HTMLElement {
        <nav>
          <ul>
            <li>
-             <a href="index.html">Home</a>
+             <a href="/index.html">Home</a>
            </li>
            <li>
-             <a href="menu.html">Menu</a>
+             <a href="/views/menu.html">Menu</a>
            </li>
            <li>
-             <a href="contact.html">Contact</a>
+             <a href="/views/contact.html">Contact</a>
            </li>
          </ul>
        </nav>
