@@ -7,7 +7,6 @@ class Header extends HTMLElement {
   connectedCallback() {
     const hostname = window.location.hostname.includes('github.io') ? '/KEA-Restaurant/' : '/';
     this.innerHTML = `
-      <header>
        <h1>Restaurant KEA</h1>
        <nav>
          <ul>
@@ -22,7 +21,6 @@ class Header extends HTMLElement {
            </li>
          </ul>
        </nav>
-      </header>
     `;
   }
 }
