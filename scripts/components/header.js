@@ -11,7 +11,7 @@ class Header extends HTMLElement {
        <nav>
          <ul>
            <li>
-             <a href="/index.html">Home</a>
+             <a href="/">Home</a>
            </li>
            <li>
              <a href="/views/menu.html">Menu</a>
