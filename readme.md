@@ -1,7 +1,7 @@
 # KEA Restaurant
 ## First mandatory assignment
 
-####Write the HTML5 code for Restaurant KEA’s website so that it looks as in the pictures below. Create three pages (home page, food menu and contact). Focus on using semantic HTML.
+#### Write the HTML5 code for Restaurant KEA’s website so that it looks as in the pictures below. Create three pages (home page, food menu and contact). Focus on using semantic HTML.
 
 #### Home page
 ![homepage](readme_assets/home.png)
